@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Hello, I'm Abdalle</h1>
-  <p>This is my portfolio website</p>
+
+    <header>
+        <h1 class="title">My Portfolio</h1>
+        <nav>
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Projects</a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Explore My Work</h2>
+            <button class="cta-btn">View Projects</button>
+        </section>
+
+        <section class="section card-container">
+            <div class="card">
+                <h3>Project One</h3>
+                <p>Hover to see interaction feedback.</p>
+            </div>
+
+            <div class="card">
+                <h3>Project Two</h3>
+                <p>Animations improve clarity.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Loading Example</h2>
+            <div class="loader"></div>
+        </section>
+
+        <section class="section">
+            <h2>Contact Me</h2>
+
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" required>
+                    <label>Your Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" required>
+                    <label>Your Email</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
 </body>
 </html>
